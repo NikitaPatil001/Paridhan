@@ -1,2 +1,2 @@
 # DreamStore
-E-Commerce Platform for all Garments
+## E-Commerce Platform for all Garments
