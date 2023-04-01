@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import Signup from './components/Signup'
-import Home from './components/Home/Home';
-
+import Header from './Header'; //Include Header
+import Home from './Home'; //Include Header
+import Footer from './Footer'; //Include Header
 function App() {
   return (
-      <div className='App'>
-      {/* <Signup/> */}
-      <Home/>
-      </div>
+    <div className="App">
+      <Header></Header>
+        <Home></Home>
+      <Footer></Footer>
+    </div>
   );
 }
 
