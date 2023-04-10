@@ -16,14 +16,15 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Sell {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JsonIgnore
 	private int srNo;
 	private LocalDate date;
 	@Column(length = 20)
 	private String customerName;
 	@Column(length = 20)
 	private String itemName;
-	private int quantity;
 	private int unitPrice;
+	private int quantity;
 	@JsonIgnore
 	private int totalAmount;
 

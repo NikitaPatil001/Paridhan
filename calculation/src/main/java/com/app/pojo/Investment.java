@@ -16,6 +16,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Investment {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JsonIgnore
 	private int srNo;
 	@Column(length = 20)
 	private LocalDate date;
