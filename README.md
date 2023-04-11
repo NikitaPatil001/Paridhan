@@ -1,5 +1,5 @@
 # Paridhan
-### what is Paridhan
+### What is Paridhan
 This is a project with the objective to develop a basic website where a consumer is provided with a shopping cart application. customer will able to shop various garments products from this site.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
