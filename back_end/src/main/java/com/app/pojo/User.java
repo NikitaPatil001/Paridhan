@@ -2,6 +2,8 @@ package com.app.pojo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Table;
 
 @Table(name = "users")
@@ -18,7 +20,12 @@ public class User extends Base {
 	@Column(length = 20)
 	private String phone;
 	@Column(length = 20)
+	@Enumerated(EnumType.STRING)
 	private Role role;
+
+	public User() {
+
+	}
 
 	public User(String firstName, String lastname, String email, String password, String phone, Role role) {
 		this.firstName = firstName;
